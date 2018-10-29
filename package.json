@@ -2,7 +2,7 @@
     "name": "a03",
     "version": "0.0.1",
     "description": "resume app",
-    "scripts":{
+    "scripts": {
         "start": "node app.js"
     },
     "main": "app.js",
