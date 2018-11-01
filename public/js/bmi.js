@@ -1,8 +1,8 @@
 $("#submit").click(function () {
-    let weight = $("#weight").value ? $("#weight").value : weight
-    let height = $("#height").value ? $("#height").value : height
-    calculateBmi(weight, height)
-    calculateBmi1(weight, height)
+    let weight = $("#weight").val() ? $("#weight").val() : null
+    let height = $("#height").val() ? $("#height").val() : null
+    calculateBmi(parseInt(weight), parseInt(height))
+   // calculateBmi1(weight, height)
 });
 function justCalculateBMI(weight, height) {
     return Math.round(weight / (height * height))

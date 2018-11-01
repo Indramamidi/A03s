@@ -27,7 +27,7 @@ app.get("/app", function (req, res) {
     res.render("app.ejs")
 })
 app.get("/", function (req, res) {
-    res.render("app.ejs")
+    res.render("index.ejs")
 })
 app.get("/index", function (req, res) {
     res.render("index.ejs")
